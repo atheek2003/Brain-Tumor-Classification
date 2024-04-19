@@ -1,0 +1,98 @@
+
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Tumor Detection</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Brain Tumor Detection</h1>
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="file" id="file" accept=".jpg, .jpeg, .png" required>
+            <button type="submit">Submit</button>
+        </form>
+        {% if message %}
+            <p>{{ message }}</p>
+        {% endif %}
+    </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Tumor Detection</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url(''); 
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity as needed */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        input[type="file"] {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 2px solid #333;
+            border-radius: 5px;
+        }
+
+        button[type="submit"] {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        p.message {
+            margin-top: 20px;
+            display: none; /* Hide the message by default */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Brain Tumor Detection</h1>
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="file" id="file" accept=".jpg, .jpeg, .png" required>
+            <button type="submit">Submit</button>
+        </form>
+        
+    </div>
+</body>
+</html>
+
