@@ -31,7 +31,6 @@ The CNN architecture used for this task is designed to extract relevant features
 - Keras
 - NumPy
 - Matplotlib
-- [Add any additional dependencies]
 
 ## Usage
 
