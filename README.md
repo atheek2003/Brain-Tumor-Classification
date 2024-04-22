@@ -18,7 +18,7 @@ Detecting and classifying brain tumors from medical images is crucial for early 
 
 ## Dataset
 
-The dataset used for training and evaluation comprises MRI images of the brain, annotated with labels indicating the presence of no tumor, meningioma tumor, glioma tumor, or pituitary tumor. The dataset is obtained from [provide source or link if applicable].
+The dataset used for training and evaluation comprises MRI images of the brain, annotated with labels indicating the presence of no tumor, meningioma tumor, glioma tumor, or pituitary tumor. The dataset is obtained from [this dataset](https://github.com/atheek2003/Brain-Tumor-Classification/tree/main/Dataset).
 
 ## Model Architecture
 
